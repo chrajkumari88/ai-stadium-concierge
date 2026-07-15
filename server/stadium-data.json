@@ -1,0 +1,162 @@
+[
+  {
+    "id": "restroom-gate-c",
+    "category": "restroom",
+    "location": "near Gate C",
+    "type": "static",
+    "keywords": ["restroom", "toilet", "bathroom", "accessible", "gate c"],
+    "fact": "The nearest accessible restroom to Gate C is on the ground floor, 20 meters past the ticket check."
+  },
+  {
+    "id": "restroom-gate-a",
+    "category": "restroom",
+    "location": "near Gate A",
+    "type": "static",
+    "keywords": ["restroom", "toilet", "bathroom", "gate a"],
+    "fact": "A restroom is located near Gate A, on the upper concourse level, next to the merchandise stall."
+  },
+  {
+    "id": "food-gate-b",
+    "category": "food",
+    "location": "near Gate B",
+    "type": "static",
+    "keywords": ["food", "snacks", "restaurant", "eat", "gate b"],
+    "fact": "Food stalls near Gate B offer local snacks, pizza, and vegetarian options, open from 2 hours before kickoff."
+  },
+  {
+    "id": "food-north-concourse",
+    "category": "food",
+    "location": "North concourse",
+    "type": "static",
+    "keywords": ["food", "snacks", "restaurant", "eat", "north concourse"],
+    "fact": "The North concourse food court has the widest variety, including halal and gluten-free options."
+  },
+  {
+    "id": "transit-metro-north",
+    "category": "transport",
+    "location": "North exit",
+    "type": "static",
+    "keywords": ["metro", "train", "transit", "north exit", "transportation"],
+    "fact": "The nearest metro station is a 5 minute walk from the North exit, with trains every 6 minutes on match days."
+  },
+  {
+    "id": "transit-shuttle-vip",
+    "category": "transport",
+    "location": "South exit",
+    "type": "static",
+    "keywords": ["shuttle", "bus", "transportation", "south exit"],
+    "fact": "Free shuttle buses to the main parking lots depart from the South exit every 10 minutes after the match."
+  },
+  {
+    "id": "gate-a-entry",
+    "category": "navigation",
+    "location": "Gate A",
+    "type": "static",
+    "keywords": ["gate a", "entrance", "entry", "navigation"],
+    "fact": "Gate A is on the east side of the stadium, accessible from the main plaza, and handles sections 100-120."
+  },
+  {
+    "id": "gate-c-entry",
+    "category": "navigation",
+    "location": "near Gate C",
+    "type": "static",
+    "keywords": ["gate c", "entrance", "entry", "navigation"],
+    "fact": "Gate C is on the west side of the stadium, accessible from the transit plaza, and handles sections 200-220."
+  },
+  {
+    "id": "medical-station-central",
+    "category": "medical",
+    "location": "near Gate C",
+    "type": "static",
+    "keywords": ["medical", "first aid", "emergency", "gate c"],
+    "fact": "The central medical station is located near Gate C, staffed throughout the event, marked with a red cross sign."
+  },
+  {
+    "id": "info-desk-main",
+    "category": "info-desk",
+    "location": "Main plaza",
+    "type": "static",
+    "keywords": ["information", "help desk", "info", "main plaza"],
+    "fact": "The main information desk is at the central plaza entrance, offering maps and lost-and-found services."
+  },
+  {
+    "id": "crowd-zone-b",
+    "category": "crowd-management",
+    "location": "Zone B",
+    "type": "mock-realtime",
+    "keywords": ["crowd", "busy", "congestion", "zone b"],
+    "fact": "Zone B is currently experiencing high crowd density; visitors are advised to use the North concourse instead."
+  },
+  {
+    "id": "crowd-zone-north",
+    "category": "crowd-management",
+    "location": "North concourse",
+    "type": "mock-realtime",
+    "keywords": ["crowd", "busy", "congestion", "north concourse"],
+    "fact": "The North concourse currently has light foot traffic and is the fastest route between Gate A and Gate B."
+  },
+  {
+    "id": "transport-parking",
+    "category": "transport",
+    "location": "West parking lot",
+    "type": "static",
+    "keywords": ["parking", "car", "transportation", "west lot"],
+    "fact": "The West parking lot is reserved for pre-booked vehicles and is a 10 minute walk from Gate A."
+  },
+  {
+    "id": "transport-bike",
+    "category": "sustainability",
+    "location": "East entrance",
+    "type": "static",
+    "keywords": ["bike", "cycle", "sustainability", "east entrance"],
+    "fact": "Bicycle parking is available near the East entrance as part of the stadium's low-emission transport initiative."
+  },
+  {
+    "id": "sustainability-recycling",
+    "category": "sustainability",
+    "location": "All concourses",
+    "type": "static",
+    "keywords": ["recycling", "waste", "sustainability", "environment"],
+    "fact": "Color-coded recycling bins for plastic, paper, and compost are placed every 50 meters across all concourses."
+  },
+  {
+    "id": "sustainability-water-refill",
+    "category": "sustainability",
+    "location": "All gates",
+    "type": "static",
+    "keywords": ["water", "refill", "sustainability", "bottle"],
+    "fact": "Free water refill stations are available near every gate to reduce single-use plastic bottle waste."
+  },
+  {
+    "id": "multilingual-assistance-desk",
+    "category": "multilingual-assistance",
+    "location": "Main plaza",
+    "type": "static",
+    "keywords": ["language", "translator", "help", "multilingual", "main plaza"],
+    "fact": "Multilingual volunteer staff, covering Spanish, French, Arabic, and Portuguese, are stationed at the main plaza info desk."
+  },
+  {
+    "id": "multilingual-app-languages",
+    "category": "multilingual-assistance",
+    "location": "Digital service",
+    "type": "static",
+    "keywords": ["language", "app", "multilingual", "translation"],
+    "fact": "This concierge assistant can respond in multiple languages based on the language you type your question in."
+  },
+  {
+    "id": "realtime-gate-delay",
+    "category": "real-time-decision-support",
+    "location": "near Gate C",
+    "type": "mock-realtime",
+    "keywords": ["delay", "wait time", "gate c", "queue"],
+    "fact": "Gate C currently has an estimated 12 minute entry wait time due to bag checks; Gate A has no significant delay."
+  },
+  {
+    "id": "operational-security-checkpoint",
+    "category": "operational-intelligence",
+    "location": "All gates",
+    "type": "mock-realtime",
+    "keywords": ["security", "checkpoint", "operational", "bag check"],
+    "fact": "All gates are operating standard security screening; no elevated alert status is currently in effect."
+  }
+]
